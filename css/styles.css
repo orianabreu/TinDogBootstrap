@@ -1,0 +1,195 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.section-heading {
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/* Title Section */
+
+#title {
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 13% 7%;
+}
+
+.iphoneimage {
+  width: 60%;
+  margin-left: 10%;
+  transform: rotate(30deg);
+  position: absolute;
+}
+
+
+
+@media (max-width: 990px) {
+
+  #title {
+    text-align: center;
+  }
+  .iphoneimage {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding-bottom: 10%;
+}
+
+.navbar-brand {
+  font-size: 200%;
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 115%;
+}
+
+/* Download Buttons  */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Features */
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.features-row {
+  padding: 15% 0 15%;
+}
+
+.features-row-text {
+  padding: 0 7% 0;
+}
+
+.feature-text {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.icon {
+  color: #ef8172;
+  font-size: 50px;
+  padding-bottom: 9px;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials  */
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#testimonial-carousel {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 7%;
+}
+
+.press-images {
+  width: 180px;
+  margin: 0 3.2%;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-colum {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.plans-text {
+  font-weight: 900;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* CTA Section */
+
+#cta {
+  padding: 5% 15%;
+}
+
+.download-button-cta {
+  margin: 2% 0 0 0;
+}
+
+
+/* Footer Section */
+
+#footer {
+  padding: 5% 0;
+}
+
+.rrss-icons {
+  padding: 0 1% 2%;
+}
